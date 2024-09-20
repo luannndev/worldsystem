@@ -1,0 +1,48 @@
+prefix: "<dark_gray>» <gradient:#D4DEE7:#FFFFFF>Worlds</gradient> <dark_gray>| "
+no-permission: "<red>Dazu hast du keine Rechte"
+no-world: "<red>Diese Welt wurde nicht gefunden"
+only-players: "<red>Du musst ein Spieler sein!"
+no-world-specified: "<gray>Du musst eine Welt angeben<dark_gray>."
+
+command:
+  world:
+    create:
+      unspecifiedType: "<gray>Du musst einen Welten-Typen angeben<dark_gray>."
+      alreadyExists: "<gray>Diese Welt existiert bereits<dark_gray>."
+      create-success: "<gray>Du hast die Welt <green>%world% <gray>erfolgreich <green>erstellt<dark_gray>."
+    delete:
+      deleted: "<gray>Du hast die Welt <green>%world% <gray>erfolgreich <red>gelöscht<dark_gray>."
+    teleport:
+      teleported: "<gray>Du hast dich erfolgreich in die Welt <green>%world% <gray>teleportiert<dark_gray>."
+    information:
+      header: "<gray>Information über die Welt<dark_gray>: <green>%world%"
+      type: "<gray>World-Type <dark_gray>» <green>%type%"
+      players: "<gray>Online Spieler<dark_gray>: <green>%players%"
+      mobs: "<gray>Spawn Monsters<dark_gray>: <green>%mobs%"
+      animals: "<gray>Spawn Animals<dark_gray>: <green>%animals%"
+    import:
+      success: "<gray>Du hast die Welt <green>%world% <gray>erfolgreich importiert<dark_gray>."
+      alreadyExists: "<gray>Diese Welt existiert bereits<dark_gray>."
+    list:
+      header: "<gray>Es sind aktuell folgende Maps geladen<dark_gray>:"
+      loop: "<dark_gray>- <green>%world%"
+    unload:
+      success: "<gray>Du hast die Welt <green>%world% <gray>erfolgreich entladen<dark_gray>."
+    load:
+      success: "<gray>Du hast die Welt <green>%world% <gray>erfolgreich geladen<dark_gray>."
+    edit:
+      specifyValue: "<gray>Gebe den Wert für <green>%setting% <gray>an<dark_gray>."
+      pvpSuccess: "<gray>Du hast <dark_gray>'<gray>PvP<dark_gray>' <gray> in der Welt <green>%world% <gray>auf <green>%value% <gray>gesetzt<dark_gray>."
+      spawnAnimalsSuccess: "<gray>Du hast <dark_gray>'<gray>Spawn Animals<dark_gray>' <gray> in der Welt <green>%world% <gray>auf <green>%value% <gray>gesetzt<dark_gray>."
+      spawnMobsSuccess: "<gray>Du hast <dark_gray>'<gray>Spawn Mobs<dark_gray>' <gray>in der Welt <green>%world% <gray>auf <green>%value% <gray>gesetzt<dark_gray>."
+      invalidSetting: "<red>Diese Einstellung gibt es nicht!"
+    usage:
+      create: "<gray>/world create <dark_gray>[<gray>Name<dark_gray>]"
+      delete: "<gray>/world delete <dark_gray>[<gray>Name<dark_gray>]"
+      teleport: "<gray>/world teleport <dark_gray>[<gray>Name<dark_gray>]"
+      information: "<gray>/world information <dark_gray>[<gray>Name<dark_gray>]"
+      import: "<gray>/world import <dark_gray>[<gray>Name<dark_gray>]"
+      list: "<gray>/world list"
+      unload: "<gray>/world unload <dark_gray>[<gray>Name<dark_gray>]"
+      load: "<gray>/world load <dark_gray>[<gray>Name<dark_gray>]"
+      edit: "<gray>/world edit <dark_gray>[<gray>Name<dark_gray>] <dark_gray>[<gray>Key<dark_gray>] <dark_gray>[<gray>Value<dark_gray>]"

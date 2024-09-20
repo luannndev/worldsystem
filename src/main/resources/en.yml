@@ -1,0 +1,5 @@
+prefix: "<dark_gray>[<gradient:#FBFCFF:#edf6f9>Worlds<dark_gray>] <reset>"
+no-permission: "<red>You dont have permission to do this"
+no-player: "<red>This player was not found"
+no-world: "<red>This world was not found"
+only-players: "<red>You must be a player!"

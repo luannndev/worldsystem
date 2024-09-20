@@ -1,0 +1,12 @@
+name: Worlds
+version: 1.0.8
+main: dev.luan.worlds.WorldSystem
+author: luannndev
+api-version: '1.21.1'
+
+commands:
+  world:
+    permission: worlds.command.world
+    aliases:
+      - w
+      - worlds
